@@ -8,5 +8,5 @@ Implemetar um carrinho de compras de forma dinâmica. Consumindo dados diretamen
 
 Avaliação de:
 
-- Aderência do código à especificação. Sua página deve se comportar como especificado na próxima seção.
+- Aderência do código à especificação.
 - Organização do seu código. Quebre seu código em funções. Prefira funções pequenas, simples e bem definidas a funções grandes e complexas.
