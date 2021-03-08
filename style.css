@@ -11,6 +11,7 @@ body {
   margin-top: 0;
   padding: 30px;
   text-align: center;
+  width: 100%;
 }
 
 .container {
@@ -79,7 +80,7 @@ body {
   font-weight: 600;
   justify-content: center;
   padding: 8px 3px;
-
+  margin-top: 4px;
 }
 
 .cart__title h3 {
@@ -111,6 +112,7 @@ body {
   align-self: center;
   background-color: #F6F8F2;
   padding: 30px 26px;
+  width: 85%;
 }
 
 .cart__item {
