@@ -61,7 +61,7 @@ async function sumPrices() {
   if (section.lastChild.className === 'total-price') {
     section.removeChild(document.querySelector('.total-price'));
   }
-  section.appendChild(createSumCart(totalPrice));
+  section.appendChild(createSumCart(totalPrice.toFixed(2)));
 }
 
 function cartItemClickListener(event) {
@@ -74,7 +74,7 @@ function cartItemClickListener(event) {
 function createCartItemElement({ sku, name, salePrice }) {
   const li = document.createElement('li');
   li.className = 'cart__item';
-  li.innerText = `SKU: ${sku} | NAME: ${name} | PRICE: $${salePrice}`;
+  li.innerText = `SKU: ${sku} | NAME: ${name} | PRICE: $${salePrice.toFixed(2)}`;
   li.addEventListener('click', cartItemClickListener);
   return li;
 }
